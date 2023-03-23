@@ -8,10 +8,7 @@ def encode():
     return encrypted_pass
 
 
-def decode(encrypted_pass):
-    # Emilio Sierra
-    decoded_pass = int(encrypted_pass) - 33333333
-    return decoded_pass
+
 
 def main():
     # your main code belongs here
